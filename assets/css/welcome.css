@@ -4,3 +4,69 @@
     padding: 16px;
     margin: 0 24px 0px 24px;
 }
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: white;
+}
+
+.welcome__btn-ingresar {
+    font-size: 1.7rem;
+    font-style: italic;
+    padding: 1px 9px;
+    opacity: 55%;
+    border: 2px solid var(--primary-color);
+}
+.welcome__btn-ingresar:hover, .btn-explora:hover {
+    opacity: 80%;
+    color: white;
+}
+
+.welcome__portfolio-h2 {
+    color: var(--primary-color)
+}
+
+.btn-explora {
+    border: 2px solid white;
+    box-shadow: 0 0 5px white;
+    padding: 8px 24px;    
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.btn-explora__pulse {
+    background-color: rgba(236, 178, 61, 1);
+    opacity: 80%;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+    height: 14px;
+    width: 14px;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(236, 178, 61, 0.7);
+    }
+    
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+    }
+    
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+    }
+}
+
+.welcome__web-development {
+    opacity: 50%;
+    font-size: 14rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 150px;
+}
+
+.welcome__scroll-down {
+    cursor: pointer;
+    width: 36px;
+}
