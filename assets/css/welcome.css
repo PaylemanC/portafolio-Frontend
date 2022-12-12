@@ -1,8 +1,13 @@
 .welcome {
     color: white;
     height: 100vh;
-    padding: 16px;
-    margin: 0 24px 0px 24px;
+    margin: 0 40px 0px 40px;
+    position: relative;
+}
+
+.welcome__content {
+    position: absolute;
+    margin-top: 16px;
 }
 
 a {
@@ -69,4 +74,36 @@ a {
 .welcome__scroll-down {
     cursor: pointer;
     width: 36px;
+}
+.welcome__scroll-down:hover {
+    transform: scale(1.05);
+}
+
+.welcome__line-decorations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-decoration {
+    background: linear-gradient(0deg, rgba(249,237,85,1) 6%, rgba(223,170,64,1) 40%, rgba(236,178,61,1) 76%, rgba(210,155,72,1) 100%);
+    width: 3px;
+    opacity: 25%;
+}
+.line-decoration:nth-child(1){
+    height: 100vh;
+}
+.line-decoration:nth-child(2){
+    height: 75vh;
+}
+.line-decoration:nth-child(3){
+    height: 87vh;
+}
+.line-decoration:nth-child(4){
+    height: 73vh;
+}
+.line-decoration:nth-child(5){
+    height: 60vh;
+}
+.line-decoration:nth-child(6){
+    height: 91vh;
 }
