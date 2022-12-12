@@ -14,8 +14,8 @@ body {
     --primary-color: #F27254;
     --secondary-color: #FAA87F;
     --third-color: #FDD8B2;
-    --degradado-gold: linear-gradient(90.13deg, rgba(249, 237, 85, 0.9) 6.85%, rgba(223, 170, 64, 0.9) 30.81%, rgba(236, 178, 61, 0.9) 68.4%, rgba(210, 155, 72, 0.9) 92.36%);
-    --degradado-pink: linear-gradient(90.01deg, #F27254 0.6%, #FF9E87 51.05%, #F27254 100%);
+    --degradado-gold: linear-gradient(90deg, rgba(249,237,85,1) 6%, rgba(223,170,64,1) 40%, rgba(236,178,61,1) 76%, rgba(210,155,72,1) 100%);
+    --degradado-pink: linear-gradient(90deg, rgba(242,114,84,1) 0%, rgba(255,158,135,1) 50%, rgba(242,114,84,1) 100%);
     --auxiliary-grey: #323232;
     --soft-grey: #D6D6D6;
     --black: #070707;
