@@ -1,3 +1,35 @@
 * {
     font-family: 'Lato', 'Roboto', sans-serif;
 }
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #232323;
+}
+
+:root {
+    /*Colors*/
+    --background-color: #232323;
+    --primary-color: #F27254;
+    --secondary-color: #FAA87F;
+    --third-color: #FDD8B2;
+    --degradado-gold: linear-gradient(90.13deg, rgba(249, 237, 85, 0.9) 6.85%, rgba(223, 170, 64, 0.9) 30.81%, rgba(236, 178, 61, 0.9) 68.4%, rgba(210, 155, 72, 0.9) 92.36%);
+    --degradado-pink: linear-gradient(90.01deg, #F27254 0.6%, #FF9E87 51.05%, #F27254 100%);
+    --auxiliary-grey: #323232;
+    --soft-grey: #D6D6D6;
+    --black: #070707;
+
+    /*Fonts*/
+    --lato: 'Lato'; 
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 5.6rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 4.5rem;
+}
