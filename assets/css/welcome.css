@@ -22,6 +22,7 @@ a {
     padding: 1px 9px;
     opacity: 55%;
     border: 2px solid var(--primary-color);
+    max-width: 88px;
 }
 .welcome__btn-ingresar:hover, .btn-explora:hover {
     opacity: 80%;
