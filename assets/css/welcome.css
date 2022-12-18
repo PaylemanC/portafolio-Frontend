@@ -1,13 +1,15 @@
 .welcome {
     color: white;
     height: 100vh;
-    margin: 0 40px 0px 40px;
+    margin: 0 40px;
     position: relative;
 }
 
 .welcome__content {
     position: absolute;
     margin-top: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -23,21 +25,33 @@ a {
     opacity: 55%;
     border: 2px solid var(--primary-color);
     max-width: 88px;
+    margin: 12px;
 }
 .welcome__btn-ingresar:hover, .btn-explora:hover {
     opacity: 80%;
     color: white;
 }
 
+/* .welcome__titles {
+    margin: 16px 0;
+} */
+
 .welcome__portfolio-h2 {
     color: var(--primary-color)
+}
+
+.welcome__btn-explora {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* margin: 16px 0; */
 }
 
 .btn-explora {
     border: 2px solid white;
     box-shadow: 0 0 5px white;
     padding: 8px 24px;    
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     font-weight: bold;
 }
 
@@ -48,6 +62,7 @@ a {
     animation: pulse 1.5s infinite;
     height: 14px;
     width: 14px;
+    margin: -8px;
 }
 
 @keyframes pulse {
@@ -66,17 +81,24 @@ a {
 
 .welcome__web-development {
     opacity: 50%;
-    font-size: 14rem;
+    font-size: 13rem;
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 150px;
+    line-height: 140px;
 }
 
 .welcome__scroll-down {
+    position: float;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 16px;
+}
+
+.welcome__scroll-link {
     cursor: pointer;
     width: 36px;
 }
-.welcome__scroll-down:hover {
+.welcome__scroll-link:hover {
     transform: scale(1.05);
 }
 
