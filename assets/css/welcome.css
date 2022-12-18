@@ -42,7 +42,7 @@ a {
 }
 
 .btn-explora__pulse {
-    background-color: rgba(236, 178, 61, 1);
+    background-color: var(--aux-gold);
     opacity: 80%;
     border-radius: 50%;
     animation: pulse 1.5s infinite;
