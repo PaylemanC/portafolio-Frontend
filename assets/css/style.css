@@ -38,8 +38,29 @@ h2 {
     border-bottom: 3px solid var(--primary-color);
     background-color: transparent;
     backdrop-filter: blur(40px);
+    /* position: sticky;
+    top: 0; */
 }
+
 .nav-item {
-    font-size: 16px;
-    /* font-weight: bold; */
+    font-size: 1.6rem;
+}
+
+.nav-link {
+    color: var(--soft-grey)
+}
+.nav-link:hover {
+    color: var(--third-color);
+}
+
+.nav-link:focus {
+    color: rgba(236, 178, 61, 1);
+}
+
+.cv {
+    color: var(--secondary-color);
+}
+.cv:hover, .cv:focus {
+    color: var(--primary-color);
+    font-weight: bold;
 }
