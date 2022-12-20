@@ -44,8 +44,6 @@ h2 {
     border-top: 3px solid var(--primary-color);
     background-color: transparent;
     backdrop-filter: blur(40px);
-    /* position: sticky;
-    top: 0; */
 }
 
 .nav-item {
@@ -53,7 +51,7 @@ h2 {
 }
 
 .nav-link {
-    color: var(--soft-grey)
+    color: var(--soft-grey);
 }
 .nav-link:hover {
     color: var(--third-color);
