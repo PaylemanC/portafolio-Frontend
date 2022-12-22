@@ -89,7 +89,12 @@ section {
 }
 
 .nav-link:focus {
-    color: var(--aux-gold)
+    background: var(--degradado-gold);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /*Compatibilidad:*/
+    background-clip: none;
+    color: var(--aux-gold);
 }
 
 .cv {
