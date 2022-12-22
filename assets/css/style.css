@@ -39,6 +39,36 @@ h2 {
     font-size: 5.3rem;
 }
 
+/*h3 solo aplicable a títulos de secciones:*/
+h3 {
+    color: var(--primary-color);
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 3px solid var(--aux-gold);
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+section {
+    margin-top: 0;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    margin-bottom: 5rem;
+}
+
 .barra-nav {
     border-bottom: 3px solid var(--primary-color);
     border-top: 3px solid var(--primary-color);
@@ -52,6 +82,7 @@ h2 {
 
 .nav-link {
     color: var(--soft-grey);
+    font-weight: bold;
 }
 .nav-link:hover {
     color: var(--third-color);
