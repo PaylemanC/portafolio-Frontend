@@ -1,4 +1,4 @@
-.perfil-back {
+.sobre-mi__perfil-back {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,4 +39,33 @@
     height: 150px;
     background-color: var(--aux-grey);
     border-radius: 80%;
+}
+
+.sobre-mi__content {
+    text-align: center;
+    margin: 16px auto;
+}
+
+.sm-content__title {
+    display: inline-block;
+    border-bottom: 4px solid var(--black);
+}
+
+.sm-content__title-1 {
+    text-align: start;
+    color: white;
+}
+
+.sm-content__title-2 {
+    color: var(--primary-color);
+}
+
+.sobre-mi__desc {
+    color: var(--third-color);
+    text-align: justify;
+}
+
+.sobre-mi__email {
+    margin-top: 8px;
+    color: white;
 }
