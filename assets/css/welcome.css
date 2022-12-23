@@ -85,7 +85,9 @@ a {
 }
 
 .welcome__scroll-down {
-    float: right;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
 }
 
 .welcome__scroll-link {
