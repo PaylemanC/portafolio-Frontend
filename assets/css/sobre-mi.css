@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 35vh;
 }
 
 .perfil-back__background {
     position: relative;
     width: 55vw;
-    height: 35vh;
+    height: 90%;
     background-color: var(--secondary-color);
     clip-path: ellipse(49% 94% at 50% 5%);
 }
@@ -35,8 +36,6 @@
 
 .perfil-back__photo {
     position: absolute;
-    width: 95px;
-    height: 150px;
     background-color: var(--aux-grey);
     border-radius: 80%;
 }
