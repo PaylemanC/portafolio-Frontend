@@ -35,7 +35,7 @@ a {
 }
 
 .welcome__content-container {
-    margin-top: 10%;
+    margin-top: 5vw;
     height: 80%;
 }
 
@@ -133,8 +133,21 @@ a {
     height: 91vh;
 }
 
-/* @media screen and (max-width: 1024px) {
-    .welcome__web-development {
-        font-size: 12rem;
-    }
-} */
+
+@media (min-width: 1024px) { 
+    /* .welcome {
+        background-color: red;
+    } */
+} 
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    /* .welcome {
+        background-color: blue;
+    } */
+}
+
+@media (max-width: 480px) { 
+    /* .welcome {
+        background-color: palevioletred;
+    } */
+}
