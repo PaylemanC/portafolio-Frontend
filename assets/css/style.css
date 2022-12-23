@@ -88,7 +88,7 @@ section {
     color: var(--third-color);
 }
 
-.nav-link:focus {
+.nav-link:focus, .nav-link:active, .active {
     background: var(--degradado-gold);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
