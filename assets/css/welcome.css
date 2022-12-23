@@ -7,8 +7,8 @@
 
 .welcome__content {
     position: absolute;
-    margin-top: 16px 0px;
-    height: 94vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -26,10 +26,17 @@ a {
     opacity: 55%;
     border: 2px solid var(--primary-color);
     margin: 16px;
+    width: fit-content;
 }
+
 .welcome__btn-ingresar:hover, .btn-explora:hover {
     opacity: 80%;
     color: white;
+}
+
+.welcome__content-container {
+    margin-top: 10%;
+    height: 80%;
 }
 
 .welcome__portfolio-h2 {
