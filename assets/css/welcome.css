@@ -20,13 +20,12 @@ a {
 }
 
 .welcome__btn-ingresar {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-style: italic;
     padding: 1px 9px;
     opacity: 55%;
     border: 2px solid var(--primary-color);
-    max-width: 88px;
-    margin: 12px;
+    margin: 16px;
 }
 .welcome__btn-ingresar:hover, .btn-explora:hover {
     opacity: 80%;
