@@ -31,25 +31,25 @@ body {
 
 h1 {
     font-weight: bold;
-    font-size: 6.5rem;
+    font-size: calc(1rem + 5vw);
     text-transform: uppercase;
 }
 
 h2 {
-    font-size: 5.3rem;
+    font-size: calc(1.3rem + 4vw);
 }
 
-/*h3 solo aplicable a títulos de secciones:*/
+/*H3 solo aplicable a títulos de secciones:*/
 h3 {
     color: var(--primary-color);
-    font-size: 2.4rem;
+    font-size: calc(1rem + 1vw);
     font-weight: bold;
     text-transform: uppercase;
     border-bottom: 3px solid var(--aux-gold);
 }
 
 h4 {
-    font-size: 2rem;
+    font-size: calc(1.5rem + .4vw)
 }
 
 h5 {
@@ -59,7 +59,7 @@ h5 {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 section {
