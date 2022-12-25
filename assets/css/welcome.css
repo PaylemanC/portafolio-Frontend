@@ -11,6 +11,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 a {
@@ -25,18 +26,19 @@ a {
     padding: 1px 9px;
     opacity: 55%;
     border: 2px solid var(--primary-color);
-    margin: 16px;
+    margin: 12px;
     width: fit-content;
 }
 
-.welcome__btn-ingresar:hover, .btn-explora:hover {
+.welcome__btn-ingresar:hover {
     opacity: 80%;
     color: white;
 }
 
 .welcome__content-container {
-    margin-top: 5vw;
-    height: 80%;
+    margin-top: 2vw;
+    height: 50%;
+    width: fit-content;
 }
 
 .welcome__portfolio-h2 {
@@ -45,17 +47,21 @@ a {
 
 .welcome__btn-explora {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
-    width: 90vw;
 }
 
 .btn-explora {
     border: 2px solid white;
     box-shadow: 0 0 5px white;
-    padding: 8px 24px;    
-    font-size: 2.2rem;
+    padding: .8rem 2.4rem;
+    font-size: calc(2rem + .4vw);
     font-weight: bold;
+}
+
+.btn-explora:hover {
+    color: white;
+    box-shadow: 0 0 5px white;
 }
 
 .btn-explora__pulse {
@@ -82,9 +88,13 @@ a {
     }
 }
 
+.welcome__title-decoration {
+    height: 50%;
+}
+
 .welcome__web-development {
     opacity: 50%;
-    font-size: calc(1rem + 9vw);
+    font-size: calc(.5rem + 9vw);
     line-height: normal;
     font-weight: bold;
     text-transform: uppercase;
@@ -150,4 +160,31 @@ a {
     /* .welcome {
         background-color: palevioletred;
     } */
+    .welcome {
+        margin-right: 4vw;
+        margin-left: 4vw;
+    }
+
+    .welcome__content-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome__titles {
+        margin: 0 5%;
+        height: 60%;
+    }
+
+    .welcome__bienvenido-h1, .welcome__portfolio-h2{
+        display: flex;
+        flex-direction: column;
+        font-size: calc(3rem + 1vw);
+    }
+    .welcome__bienvenido-h1 span:nth-child(2), .welcome__portfolio-h2 span:nth-child(2) {
+        padding-left: calc(2.8rem + 1vw);
+    }
+
+    .welcome__web-development {
+        display: none;
+    }
 }
