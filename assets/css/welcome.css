@@ -90,6 +90,9 @@ a {
 
 .welcome__title-decoration {
     height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .welcome__web-development {
