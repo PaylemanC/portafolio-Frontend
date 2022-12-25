@@ -61,7 +61,9 @@ a {
 
 .btn-explora:hover {
     color: white;
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 8px white;
+    font-weight: bold;
+    transform: scale(1.02);
 }
 
 .btn-explora__pulse {
