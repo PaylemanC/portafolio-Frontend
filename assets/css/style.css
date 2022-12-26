@@ -104,3 +104,12 @@ section {
     color: var(--primary-color);
     font-weight: bold;
 }
+
+
+/*Responsives genéricos:*/
+@media (max-width: 480px) { 
+    section {
+        margin-right: 4vw;
+        margin-left: 4vw;
+    }
+}

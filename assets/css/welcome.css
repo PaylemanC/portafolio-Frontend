@@ -165,11 +165,7 @@ a {
     /* .welcome {
         background-color: palevioletred;
     } */
-    .welcome {
-        margin-right: 4vw;
-        margin-left: 4vw;
-    }
-
+    
     .welcome__content {
         justify-content: flex-start;
     }
