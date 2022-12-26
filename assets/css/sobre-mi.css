@@ -59,6 +59,13 @@
     color: var(--primary-color);
 }
 
+.sobre-mi__email-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
 .sobre-mi__email {
     margin-top: 8px;
     color: white;

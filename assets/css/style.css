@@ -106,6 +106,18 @@ section {
     font-weight: bold;
 }
 
+.btn-copy {
+    background-color: transparent;
+    border-color: transparent;
+}
+.btn-copy:hover {
+    transform: scale(1.15);
+}
+.img-copy {
+    width: 80%;
+    height: auto;
+    padding-left: 1rem;
+}
 
 /*Responsives genéricos:*/
 @media (max-width: 480px) { 
