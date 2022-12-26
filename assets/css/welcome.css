@@ -51,7 +51,6 @@ a {
 
 .welcome__btn-explora {
     display: flex;
-    justify-content: flex-end;
     align-items: flex-end;
 }
 
@@ -156,7 +155,6 @@ a {
 @media (min-width: 1024px) { 
     .welcome__web-development {
         font-size: calc(.5rem + 9vw);
-        line-height: calc(1rem + 10vw)
     }
 } 
 
