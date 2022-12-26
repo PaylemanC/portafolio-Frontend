@@ -39,6 +39,9 @@ a {
     margin-top: 2vw;
     height: 50%;
     width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .welcome__portfolio-h2 {
@@ -165,7 +168,7 @@ a {
     /* .welcome {
         background-color: palevioletred;
     } */
-    
+
     .welcome__content {
         justify-content: flex-start;
     }
