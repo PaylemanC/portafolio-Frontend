@@ -37,11 +37,12 @@ a {
 
 .welcome__tittle-btnE-container {
     margin-top: 2vw;
-    height: 50%;
-    width: fit-content;
+    height: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .welcome__portfolio-h2 {
@@ -94,7 +95,7 @@ a {
 }
 
 .welcome__title-decoration {
-    height: 50%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -103,8 +104,7 @@ a {
 .welcome__web-development {
     opacity: 45%;
     font-size: 13rem;
-    /* font-size: calc(.5rem + 9vw); */
-    line-height: normal;
+    line-height: 12rem;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -153,46 +153,40 @@ a {
 }
 
 
-/* @media (min-width: 1024px) { 
-    .welcome {
-        background-color: red;
+@media (min-width: 1024px) { 
+    .welcome__web-development {
+        font-size: calc(.5rem + 9vw);
+        line-height: calc(1rem + 10vw)
     }
-}  */
+} 
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    /* .welcome {
-        background-color: blue;
-    } */
-    .welcome__web-development {
-        /* font-size: 6.5rem; */
-        font-size: 10rem;
+    .welcome__title-decoration {
+        justify-content: center;
     }
 
     .welcome__web-development {
+        font-size: 10rem;
+        line-height: 9.5rem;
+    }
+
+    .welcome__web-development:nth-child(2) {
         margin-bottom: 52px;
     }
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
-    /* .welcome {
-        background-color: orange;
-    } */
+@media screen and (min-width: 481px) and (max-width: 767px) {
     .welcome__web-development {
-        /* font-size: 6.5rem; */
         font-size: 6.2rem;
-        margin-bottom: 0;
+        line-height: 8rem;
     }
 
-    .welcome__web-development {
+    .welcome__web-development:nth-child(2) {
         margin-bottom: 52px;
     }
 }
 
 @media (max-width: 480px) { 
-    /* .welcome {
-        background-color: palevioletred;
-    } */
-
     .welcome__content {
         justify-content: flex-start;
     }
