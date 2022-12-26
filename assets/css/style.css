@@ -60,7 +60,8 @@ h5 {
 }
 
 p {
-    font-size: 1.6rem;
+    font-size: calc(1rem + .5vw);
+    color: white;
 }
 
 section {
