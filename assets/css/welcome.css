@@ -35,7 +35,7 @@ a {
     color: white;
 }
 
-.welcome__content-container {
+.welcome__tittle-btnE-container {
     margin-top: 2vw;
     height: 50%;
     width: fit-content;
@@ -170,7 +170,7 @@ a {
         margin-left: 4vw;
     }
 
-    .welcome__content-container {
+    .welcome__tittle-btnE-container {
         display: flex;
         flex-direction: column;
     }
