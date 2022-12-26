@@ -47,7 +47,7 @@
 
 .sm-content__title {
     display: inline-block;
-    border-bottom: 4px solid var(--black);
+    border-bottom: .5em solid var(--black);
 }
 
 .sm-content__title-1 {
