@@ -182,6 +182,9 @@ a {
     .welcome__web-development:nth-child(2) {
         margin-bottom: 52px;
     }
+    .line-decoration:last-child {
+        display: none;
+    }
 }
 
 @media (max-width: 480px) { 
@@ -211,6 +214,10 @@ a {
     }
 
     .welcome__title-decoration {
+        display: none;
+    }
+
+    .line-decoration:last-child, .line-decoration:nth-last-child(2) {
         display: none;
     }
 }
