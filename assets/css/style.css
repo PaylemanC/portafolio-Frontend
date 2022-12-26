@@ -71,6 +71,11 @@ section {
     margin-bottom: 5rem;
 }
 
+::selection {
+background: var(--secondary-color);
+color: var(--background-color);
+}
+
 .barra-nav {
     border-bottom: 3px solid var(--primary-color);
     border-top: 3px solid var(--primary-color);
