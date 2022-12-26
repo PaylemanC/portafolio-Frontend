@@ -59,12 +59,13 @@
     color: var(--primary-color);
 }
 
-.sobre-mi__desc {
-    color: var(--third-color);
-    text-align: justify;
-}
-
 .sobre-mi__email {
     margin-top: 8px;
     color: white;
+}
+
+.sobre-mi__desc {
+    color: var(--third-color);
+    text-align: justify;
+    margin-top: 24px;
 }
