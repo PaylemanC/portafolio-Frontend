@@ -1,48 +1,27 @@
-.sobre-mi__perfil-back {
+.sobre-mi__perfil {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 35vh;
-}
-
-.perfil-back__background {
-    position: relative;
-    width: 55vw;
-    height: 90%;
-    background-color: var(--secondary-color);
-    clip-path: ellipse(49% 94% at 50% 5%);
-}
-
-.perfil-back__decoration-line {
-    position: absolute;
-    width: 500px;
-    height: 100px;
-    /* width: 35vw;
-    height: 13vw; */
-    /* margin-top: 5vw; */
-    background: var(--degradado-gold);
-    display: flex;
     justify-content: center;
+    height: 40vh;
+    margin-top: 12px;
+}
+
+.perfil__border {
+    background: var(--degradado-gold);
+    height: 100%;
+    display: flex;
     align-items: center;
+    border-radius: 100%;
 }
 
-.perfil-back__decoration-back {
-    /* width: 34vw;
-    height: 12vw; */
-    width: 490px;
-    height: 90px;
-    background-color: var(--secondary-color);
-}
-
-.perfil-back__photo {
-    position: absolute;
-    background-color: var(--aux-grey);
-    border-radius: 80%;
+.perfil__photo {
+    height: 95%;
+    border-radius: 100%;
 }
 
 .sobre-mi__content {
     text-align: center;
-    margin: 16px auto;
 }
 
 .sm-content__title {
