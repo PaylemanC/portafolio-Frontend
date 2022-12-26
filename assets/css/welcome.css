@@ -170,14 +170,16 @@ a {
         margin-left: 4vw;
     }
 
+    .welcome__content {
+        justify-content: flex-start;
+    }
+
     .welcome__tittle-btnE-container {
-        display: flex;
-        flex-direction: column;
+        width: 100%;
     }
 
     .welcome__titles {
-        margin: 0 5%;
-        height: 60%;
+        margin: 15% 5%;
     }
 
     .welcome__bienvenido-h1, .welcome__portfolio-h2{
@@ -189,7 +191,11 @@ a {
         padding-left: calc(2.8rem + 1vw);
     }
 
-    .welcome__web-development {
+    .welcome__btn-explora {
+        justify-content: center;
+    }
+
+    .welcome__title-decoration {
         display: none;
     }
 }
