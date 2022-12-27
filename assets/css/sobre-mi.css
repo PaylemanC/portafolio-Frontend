@@ -30,12 +30,12 @@
     text-align: center;
 }
 
-.sm-content__title {
+.sm-content__title-2-container {
     display: inline-block;
     border-bottom: .5em solid var(--black);
 }
 
-.sm-content__title-1 {
+.perfil__title-1 {
     color: white;
     margin-right: 1rem;
 }
